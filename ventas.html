@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/views.css">
+</head>
+
+<body>
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</a>
+        <ul class="menu">
+            <li><a href="./home.html"><span class="icono home"> </span> Inicio</a></li>
+            </li>
+            <li><a href="./clientes.html"><span class="icono cliente"> </span> Clientes</a></li>
+            <li><a href="./servicios.html"><span class="icono servicio"> </span>Servicios</a></li>
+            <li><a href="./trabajadores.html"><span class="icono trabajador"> </span>Trabajadores</a></li>
+            <li><a href="./ventas.html"><span class="icono venta"> </span>Ventas</a></li>
+            <li><a href="./index.html"><span class="icono salir"> </span>Salir</a></li>
+        </ul>
+    </div>
+
+
+    <div id="main">
+        <button class="openbtn" id="openbtn" onclick="openNav()">☰</button>
+        <h1 class="tituloprincipal"> Ventas de servicio</h1>
+
+        <div class="FormCliente">
+
+            <form>
+                <select class="txtdatos">
+                    <h1>Empleado</h1>
+                    <optgroup>
+                        <option> Josseline Alvarado  </option>
+                        <option> Crystian Suarez</option>
+                        <option> Alexandra Gomez</option>
+                        <option> Heidi Aparicio</option>
+                        <option> Ruben Santos</option>
+                        <option> Azael Dimas</option>
+
+                    <optgroup>
+                </select>
+                <select class="txtdatos">
+                    <optgroup>
+                        <option> Lavado interior</option>
+                        <option> Lavado Completo</option>
+                        <option> Cambio de Aceite </option>
+                        <option> Lavado de alfombra</option>
+                        <option> Limpieza </option>
+                    <optgroup>
+                </select>
+                <input type="search" name="Busca" id="Busca" class="txtdatos" placeholder="- - -">
+
+                <input type="button" class="boton" id="btnVnetas" value="Agregar Servicio">
+                <br>
+
+            </form>
+
+            <input type="button" class="boton" id="btnVnetas" value="Finalizar Venta">
+            
+        </div>
+    </div>
+
+
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
