@@ -9,7 +9,7 @@
 
 .body {
     font-family: "Lato", sans-serif;
-    background-color: #d2a2ff;
+    background-color: #fcfcfc;
    
 }
 
@@ -20,7 +20,7 @@
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: rgb(167, 167, 167);
+    background-color: rgb(161, 161, 161);
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -52,7 +52,7 @@
     margin: 1%;
     font-size: 20px;
     cursor: pointer;
-    background-color: rgb(201, 111, 243);
+    background-color: rgb(69, 127, 253);
     color: rgb(0, 0, 0);
     padding: 10px 15px;
     border: none;
@@ -127,8 +127,8 @@
 
 
 .menu a:hover:not(.active) {
-    background-color: #ff00c8;
-    color: white;
+    background-color: #2f00ff;
+    color: rgb(0, 0, 0);
 }
 
 #main {
@@ -202,23 +202,23 @@
 }
 
 #clientes {
-    background-color: #e47aff;
+    background-color: #977aff;
 }
 
 #servicio {
-    background-color: #ff4af6;
+    background-color: #8d6ffc;
 }
 
 #trabajadores {
-    background-color: #b018df;
+    background-color: #a38afd;
 }
 
 #reporteventas {
-    background-color: #fa8fe3;
+    background-color: #8363fa;
 }
 
 #nuevaventas {
-    background-color: #ad00a5;
+    background-color: #937fdd;
 }
 
 
@@ -242,7 +242,7 @@
     display: inline-block;
     text-align: center;
     border-radius: 30px;
-    background-color: #e7ccf5;
+    background-color: #ffffff;
 }
 
 .txtdatos:hover {
@@ -258,7 +258,7 @@
     display: inline-block;
     text-align: center;
     border-radius: 30px;
-    background-color: #e7ccf5;
+    background-color: #ffffff;
 }
 
 .correo {
@@ -270,7 +270,7 @@
     display: inline-block;
     text-align: center;
     border-radius: 30px;
-    background-color: #e7ccf5;
+    background-color: #ffffff;
 }
 
 .boton {
@@ -279,7 +279,7 @@
     min-height: 30px;
     height: 2.5vw;
     margin: 1vw;
-    background: #ff3fd5;
+    background: #ffdc17;
     display: inline-block;
     border-radius: 30px;
 }
@@ -309,7 +309,7 @@
 }
 
 .datostabla thead tr {
-    background-color: #fdb4f3;
+    background-color: #85b0ff;
     color: #000000;
     text-align: center;
     border: rgb(0, 0, 0) 1px solid;
@@ -356,7 +356,7 @@
     margin: 20px;
     color: #000000;
     font-size: 20px;
-    background: #ff5ce9;
+    background: #ecff44;
     border-radius: 20px;
 }
 
@@ -386,7 +386,7 @@
         font-size: 88%;
         width: 100%;
         min-width: 100%;
-        border: gray 1px solid;
+        border: rgb(255, 255, 255) 1px solid;
 
     }
 
@@ -423,7 +423,7 @@
         font-size: 75%;
         width: 100%;
         min-width: 100%;
-        border: gray 1px solid;
+        border: rgb(255, 255, 255) 1px solid;
     }
 
     #main {
