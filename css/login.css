@@ -18,7 +18,7 @@
     padding: 5vw;
     color: rgb(0, 0, 0);
     border-radius: 30px;
-    background-color: rgba(255, 52, 245, 0.788);
+    background-color: rgb(127, 113, 253);
 }
 
 #login h1 {
@@ -29,15 +29,20 @@
     line-height: 58px;
     text-align: center;
     color: #ffffff;
+    font-size: 70%;
 }
 
 #login p {
     font-size: 30px;
     text-align: center;
+    color: #ffffff;
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
 }
 
 #p {
-    color: #FFFCFC;
+    color: #ffffff;
     text-align: center;
     font-size: 25px;
     text-decoration: none;
